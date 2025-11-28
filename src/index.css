@@ -1,0 +1,11 @@
+/* Minimal global styles to prevent missing import error */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* App container */
+.app {
+  padding: 16px;
+}
