@@ -46,6 +46,11 @@ A modern React e-commerce application for selling beautiful houseplants. Built w
 - All cart actions: addToCart, increment, decrement, removeItem
 - Public GitHub repository with full source code
 
+## WebApp Screenshots
+<img width="1863" height="878" alt="image" src="https://github.com/user-attachments/assets/47218ea5-dc50-473b-878c-986c87746d60" />
+<img width="1864" height="876" alt="image" src="https://github.com/user-attachments/assets/91d6784f-7c6d-4515-9dea-24e4715530d5" />
+<img width="1863" height="874" alt="image" src="https://github.com/user-attachments/assets/a9c74bf2-2e0e-47dc-a827-7c103106141d" />
+
 ## 🚀 Getting Started
 
 ### Prerequisites
