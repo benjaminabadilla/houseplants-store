@@ -6,6 +6,7 @@ interface Plant {
   price: number;
   category: string;
   image: string;
+  description?: string;
 }
 
 interface CartItem extends Plant {
