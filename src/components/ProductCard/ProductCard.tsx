@@ -37,8 +37,21 @@ export default function ProductCard({ id, name, price, image, description }: Pro
       textAlign: 'center',
       backgroundColor: '#fff',
       boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+      display: 'flex',
+      flexDirection: 'column',
     }}>
-      <img src={image} alt={name} style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '4px' }} />
+      <div style={{
+        width: '100%',
+        height: '180px',
+        overflow: 'hidden',
+        borderRadius: '4px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#f5f5f5',
+      }}>
+        <img src={image} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      </div>
       <h3 style={{ marginTop: '12px', marginBottom: '8px' }}>{name}</h3>
       {description && <p style={{ fontSize: '12px', color: '#666', marginBottom: '8px' }}>{description}</p>}
       <p style={{ fontSize: '18px', fontWeight: 'bold', color: '#2d5016', marginBottom: '12px' }}>${price.toFixed(2)}</p>

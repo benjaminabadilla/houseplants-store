@@ -17,7 +17,7 @@ export default function Header() {
       borderBottom: '1px solid #1a3009',
     }}>
       <Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>
-        <h1 style={{ margin: 0, fontSize: '24px' }}>🌿 Houseplants Store</h1>
+        <h1 style={{ margin: 0, fontSize: '24px' }}>🌿 Prop House</h1>
       </Link>
 
       <nav style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>

@@ -3,6 +3,7 @@ import LandingPage from './pages/LandingPage';
 import ProductListing from './pages/ProductListing';
 import CartPage from './pages/CartPage';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function AppContent() {
   const location = useLocation();
@@ -11,11 +12,14 @@ function AppContent() {
   return (
     <>
       {showHeader && <Header />}
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/products" element={<ProductListing />} />
-        <Route path="/cart" element={<CartPage />} />
-      </Routes>
+      <main style={{ flex: 1 }}>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/products" element={<ProductListing />} />
+          <Route path="/cart" element={<CartPage />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   );
 }
